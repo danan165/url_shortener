@@ -105,6 +105,8 @@ python -m unittest
 
 2. CI for code coverage: tried coveralls, but it couldn't pick up my most recent repos (only showed me my old repos). Will look into codecov.
 
+3. `compress` Flask route should return 200 OK if the given URL has already been shortened. Currently, returns 201 CREATED for all URLs.
+
 ---
 
 ## References
