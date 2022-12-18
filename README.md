@@ -92,9 +92,11 @@ pip install -e .
 flask --app url_shortener run
 ```
 
-3. Run the unit tests
+3. Run the unit tests and calculate code coverage
 ```
 python -m unittest 
+coverage run -m unittest
+coverage report
 ```
 
 ---

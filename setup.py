@@ -6,5 +6,6 @@ setup(
     include_package_data=True,
     install_requires=[
         "Flask==2.2.2",
+        "coverage==6.5.0"
     ],
 )
