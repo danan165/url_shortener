@@ -99,6 +99,14 @@ python -m unittest
 
 ---
 
+## TODO: Future Enhancements
+
+1. Write unit tests in `tests/test_flask_routes.py` to test the functions in `url_shortener/routes.py`. Will need to do some mocking setup of the flask app.
+
+2. CI for code coverage: tried coveralls, but it couldn't pick up my most recent repos (only showed me my old repos). Will look into codecov.
+
+---
+
 ## References
 
 - [Flask Docs: Large Applications as Packages](https://flask.palletsprojects.com/en/2.2.x/patterns/packages/)
