@@ -1,6 +1,6 @@
 # URL Shortener
 
-A Python Flask API for URL shortening.
+A lightweight Python Flask API for URL shortening and restoring.
 
 ---
 
