@@ -46,7 +46,7 @@ class TestURLShortener(unittest.TestCase):
         self.assertEqual(restored_url, None)
         self.assertEqual(len(URLShortenerInst.urls), 0)
 
-    def basic_compress_and_restore(self):
+    def test_basic_compress_and_restore(self):
         urls = [
             "https://www.nationalgeographic.com/animals/mammals/facts/cabybara-facts",
             "https://www.britannica.com/animal/capybara-genus",
