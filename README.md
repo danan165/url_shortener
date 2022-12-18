@@ -107,6 +107,8 @@ python -m unittest
 
 3. `compress` Flask route should return 200 OK if the given URL has already been shortened. Currently, returns 201 CREATED for all URLs.
 
+4. Current `URLShortener` instantiation in `url_shortener/routes.py` isn't best practice -- it's a global instance. 
+
 ---
 
 ## References
@@ -114,4 +116,5 @@ python -m unittest
 - [Flask Docs: Large Applications as Packages](https://flask.palletsprojects.com/en/2.2.x/patterns/packages/)
 - [Stack Overflow: Common folder/file structure in Flask app](https://stackoverflow.com/questions/14415500/common-folder-file-structure-in-flask-app)
 - [Flask Docs: Testing Flask Applications](https://flask.palletsprojects.com/en/1.0.x/testing/)
+- [Stack Overflow: Idea for Base64 encoding an Integer (needed an alphanumeric short string)](https://stackoverflow.com/questions/1497504/how-to-make-unique-short-url-with-python)
 
