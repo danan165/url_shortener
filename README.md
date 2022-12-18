@@ -2,7 +2,7 @@
 
 A lightweight Python Flask API for URL shortening and restoring.
 
-[![Python Package](https://github.com/danan165/url_shortener/actions/workflows/python-package.ymlbadge.svg)](https://github.com/danan165/url_shortener/actions/workflows/python-package.yml)
+[![Python Package](https://github.com/danan165/url_shortener/actions/workflows/python-package.yml/badge.svg)](https://github.com/danan165/url_shortener/actions/workflows/python-package.yml)
 
 ---
 
